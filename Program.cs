@@ -22,14 +22,11 @@ namespace BoxingUnboxingApp
 
             //UnBoxing 
             //Converting Reference type to value type
-
-            int myNumber2 = 30;
-            Object obj2 = new Object();
-            obj2 = 50;
-            Console.WriteLine("\nThe number in integer before unboxing is : " + myNumber2);
-            //myNumber = obj2; implicit conversion not possible gives error 
-            myNumber2 = (int)obj2; //explicit converion 
-            Console.WriteLine("The number in integer after unboxing is : " + myNumber2);
+            myNumber = 40;
+            Console.WriteLine("\nThe integer before unboxing is : " + myNumber);
+            //myNumber = obj; implicit conversion not possible gives error
+            myNumber = (int)obj; //explicit converion 
+            Console.WriteLine("The integer after unboxing is : " + myNumber);
 
 
         }
